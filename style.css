@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+    background-color: dodgerblue;
+    color:aqua;
+}
+
+div.container {
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    background-color: blue;
+    border: 2px solid skyblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+div.container textarea {
+    width: 90%;
+    font-size: 20px;
+    padding: 20px;
+    background-color:navy;
+    color: white;
+}
+div.container p{
+    font-size: 20px;
+}
